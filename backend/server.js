@@ -7,7 +7,7 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors({ origin: 'https://devin-se-project.vercel.app/' }));
+app.use(cors());
 
 app.use(express.json());
 
