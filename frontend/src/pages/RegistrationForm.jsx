@@ -13,7 +13,7 @@ const RegistrationForm = () => {
     console.log(formData);
     
     try {
-      const response = await fetch('http://localhost:5000/api/students/register', {
+      const response = await fetch('https://devin-se-project.onrender.com/api/students/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
